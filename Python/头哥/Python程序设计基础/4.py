@@ -1,10 +1,13 @@
-price=float(input("黄金价格"))
-rate=float(input("美元汇率"))
-grams=float(input("黄金重量"))
-#代码开始
-OUNCE = 31.1034768
-usd = price / OUNCE * grams   # 每克美元价 × 克数 = 美元总额
-cny = usd * rate                 # 美元总额 × 汇率 = 人民币
+#货币换算程序
+hl= float(input("请输入汇率"))
+hb = input("请输入带有符号$的货币")
+#####代码开始#####
+symbol = hb[0]
+amount = float(hb[1:])
 
-print("黄金价值{:.2f}".format(cny))
-#代码结束
+if symbol == '$':
+    print("值人民币"+'￥{:.2f}'.format(amount * hl))
+else:
+    print("值美元"+'${:.2f}'.format(amount / hl))
+
+####代码结束####

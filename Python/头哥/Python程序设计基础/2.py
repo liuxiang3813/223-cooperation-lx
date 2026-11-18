@@ -1,8 +1,8 @@
-c=float(input('ÇëÊäÈë³¤'))
-k=float(input('ÇëÊäÈë¿í'))
-#´úÂë¿ªÊ¼
+c=float(input('è¯·è¾“å…¥é•¿'))
+k=float(input('è¯·è¾“å…¥å®½'))
+#ä»£ç å¼€å§‹
 circle = 2 * (c + k)
 area = c * k
-#´úÂë½áÊø
-print('³¤·½ĞÎµÄÖÜ³¤ÊÇ',int(circle))
-print('³¤·½ĞÎµÄÃæ»ıÊÇ',int(area))
+#ä»£ç ç»“æŸ
+print('é•¿æ–¹å½¢çš„å‘¨é•¿æ˜¯',int(circle))
+print('é•¿æ–¹å½¢çš„é¢ç§¯æ˜¯',int(area))
