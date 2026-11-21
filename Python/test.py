@@ -1,2 +1,5 @@
-number = int(input("请输入"))
-print(10,"+",number,"=",10+number)
+number = int(input("你好"))
+if number > 1:
+    print("123123")
+else:
+    print("321321")
