@@ -1,4 +1,15 @@
+/**
+ * @file 水仙花数.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2026-11-24
+ * 
+ * @copyright Copyright (c) 2026
+ * 
+ */
 #include<stdio.h>
+
 int main()
 {
     // 法1
