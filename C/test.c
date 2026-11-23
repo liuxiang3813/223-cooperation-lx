@@ -5,4 +5,7 @@ int main(void)
     int lenth = sizeof(s) / sizeof(s[0]);
     printf("%d", lenth);
     return 0;
+
+    
+
 }
